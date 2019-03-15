@@ -6,6 +6,8 @@ public class Actors {
 
     public String imageURL;
 
+    public String images;
+
     public Actors(String name, String imageURL){
         this.name = name;
         this.imageURL = imageURL;
