@@ -26,6 +26,7 @@ import bynry.com.volleyapp.models.Actors;
 
 public class MainActivity extends AppCompatActivity {
 
+    private String name = "Kanchan";
     private static final String JSON_URL = "https://simplifiedcoding.net/demos/view-flipper/heroes.php";
     private RecyclerView recyclerView;
     private ArrayList<Actors> mActors;
